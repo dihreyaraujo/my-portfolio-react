@@ -1,0 +1,143 @@
+.title-hs {
+  color: #535782;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 3.5em;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 100px;
+  letter-spacing: 1px;
+}
+
+.hardskills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 40px;
+  width: 70vw;
+  z-index: 2;
+}
+
+.hs {
+  padding: 6px 15px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.377);
+  border: 2px solid #535782;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 170px;
+  width: 160px;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+.hs:hover {
+  height: 200px;
+  width: 190px;
+}
+
+.git p {
+  color: orangered;
+}
+
+.git:hover {
+  box-shadow: 0px 0px 20px rgba(255, 68, 0, 0.946);
+}
+
+.github p {
+  color: black;
+}
+
+.github:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.749);
+}
+
+.html p {
+  color: orangered;
+}
+
+.html:hover {
+  box-shadow: 0px 0px 20px rgba(255, 68, 0, 0.929);
+}
+
+.css p {
+  color: #2272B6;
+}
+
+.css:hover {
+  box-shadow: 0px 0px 20px #2271b6f3;
+}
+
+.js p {
+  color: yellow;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.82)
+}
+
+.js:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 0, 0.811);
+}
+
+.react p {
+  color: rgb(132, 224, 250);
+}
+
+.react:hover {
+  box-shadow: 0 0 20px rgb(132, 224, 250);
+}
+
+.jest p {
+  color: #99425B;
+}
+
+.jest:hover {
+  box-shadow: 0 0 20px #99425b ;
+}
+
+.redux p {
+  color: #764ABC;
+}
+
+.redux:hover {
+  box-shadow: 0 0 20px #764ABC;
+}
+
+.docker p {
+  color: #238BB8;
+}
+
+.docker:hover {
+  box-shadow: 0 0 20px #238BB8;
+}
+
+.sql p {
+  color: #18618A;
+}
+
+.sql:hover {
+  box-shadow: 0 0 20px #18618A;
+}
+
+@media screen and (max-width: 1020px) {
+  .hardskills {
+    margin-top: 0;
+  }
+
+  .hs img {
+    width: 70px;
+  }
+
+  .hs {
+    padding: 3px 8px;
+    height: 140px;
+    width: 130px;
+  }
+
+  .hs:hover {
+    height: 150px;
+    width: 140px;
+  }
+}
