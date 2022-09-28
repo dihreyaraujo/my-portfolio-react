@@ -121,6 +121,22 @@
   box-shadow: 0 0 20px #18618A;
 }
 
+.nodejs p {
+  color: #83CD29;
+}
+
+.nodejs:hover {
+  box-shadow: 0 0 20px #83CD29;
+}
+
+.sequelize p {
+  color: #2479BD;
+}
+
+.sequelize:hover {
+  box-shadow: 0 0 20px #2479BD;
+}
+
 @media screen and (max-width: 1020px) {
   .hardskills {
     margin-top: 0;
