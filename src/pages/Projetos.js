@@ -38,7 +38,7 @@ class Social extends React.Component {
             <img src={ Market } />
             <h1>Dihrey Market</h1>
             <p>Esse site é um e-commerce e foi desenvolvido em grupo com o intuito de demonstrar minhas habilidades em Métodos Ágeis, Kanban, Scrum, Ciclo de vida de Componente, React / React Router, Componentes com estado e evento. (estilização personalizada por mim para meu portfólio)</p>
-            <a href="https://github.com/dihreyaraujo/frontEndMarket" target="_blank"><button type="button">Visitar</button></a>
+            <a href="https://dihreymarket.netlify.app/" target="_blank"><button type="button">Visitar</button></a>
           </div>
         </div>
         <div className='fadeIn container-project'>
