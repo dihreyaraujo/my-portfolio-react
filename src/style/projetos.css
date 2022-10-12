@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Roboto+Slab:wght@300&display=swap');
+
 .container-project {
   display: flex;
   align-items: flex-start;
@@ -19,11 +21,96 @@
   cursor: not-allowed;
 }
 
+.project1 {
+  background-image: url('../images/market-dihrey-project-blur.jpg');
+  background-size: cover;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  cursor: pointer;
+  justify-content: start;
+}
+
+.project1 p {
+  background-color: #535782b1;
+  padding: 10px 20px;
+  border-radius: 20px 20px 0 0;
+  cursor: default;
+}
+
+.container-expand {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #5357829b;
+  z-index: 999;
+  cursor: pointer;
+  display: none;
+}
+
+.project-expand {
+  width: 50%;
+  margin: auto;
+  position: absolute;
+  left: 25%;
+  top: 50px;
+  z-index: 99;
+  background-color: #535782;
+  color: white;
+  text-align: center;
+  padding: 0 0 80px 0;
+  border-radius: 15px;
+  cursor: default;
+}
+
+.project-expand img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.project-expand p {
+  width: 70%;
+  margin: auto;
+  font-size: 1.4em;
+}
+
+.project-expand h1 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.project-expand button {
+  z-index: 9999;
+  width: 180px;
+  height: 50px;
+  font-family: 'Cookie', cursive;
+  font-size: 1.9em;
+  letter-spacing: 1px;
+  color: white;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 20px;
+  background-color: #535782;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.66);
+  cursor: pointer;
+  transition: 0.5s;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.project-expand button:hover {
+  background-color: white;
+  color: #535782;
+  text-shadow: none;
+}
+
 @media screen and (max-width: 1020px) {
   .project {
     width: 150px;
     height: 250px;
-    margin-bottom: 40px;
+    margin-bottom:40px;
   }
 
   .project p {
