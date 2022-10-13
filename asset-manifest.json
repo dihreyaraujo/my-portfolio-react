@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.53c1569d.css",
-    "main.js": "/static/js/main.8dc0b9af.js",
+    "main.css": "/static/css/main.bb136c14.css",
+    "main.js": "/static/js/main.e553257b.js",
     "static/media/market-dihrey-project-blur.jpg": "/static/media/market-dihrey-project-blur.f51d8a71dd67ea8b40e3.jpg",
     "static/media/market-dihrey-project-blur.png": "/static/media/market-dihrey-project-blur.f7c7b4131b8a73d42ec1.png",
     "static/media/certificado2.png": "/static/media/certificado2.2e72e55208d78fb9181c.png",
@@ -15,11 +15,11 @@
     "static/media/linkedin.svg": "/static/media/linkedin.b36a49003fed3e09395ae435ba9a728a.svg",
     "static/media/terminal-solid.svg": "/static/media/terminal-solid.64d14e6c74f8e55fbe632d23cc434f1e.svg",
     "index.html": "/index.html",
-    "main.53c1569d.css.map": "/static/css/main.53c1569d.css.map",
-    "main.8dc0b9af.js.map": "/static/js/main.8dc0b9af.js.map"
+    "main.bb136c14.css.map": "/static/css/main.bb136c14.css.map",
+    "main.e553257b.js.map": "/static/js/main.e553257b.js.map"
   },
   "entrypoints": [
-    "static/css/main.53c1569d.css",
-    "static/js/main.8dc0b9af.js"
+    "static/css/main.bb136c14.css",
+    "static/js/main.e553257b.js"
   ]
 }
