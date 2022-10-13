@@ -33,8 +33,9 @@ class Social extends React.Component {
     project1.classList.add('magictime');
     project1.classList.add('vanishOut');
     if (window.innerHeight <= 800) {
+      console.log('expand1Down none');
+      expand1Down.style.display = 'none';
       setTimeout(() => {
-        expand1Down.style.display = 'none';
         expand1.style.display = 'none';
       }, 1000);
     } else {
