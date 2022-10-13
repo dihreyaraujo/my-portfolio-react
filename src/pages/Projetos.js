@@ -7,10 +7,15 @@ class Social extends React.Component {
   expandProject = ({ target }) => {
     const project = target.classList[1];
     const expand1 = document.querySelector('.expand1');
+    const expand1Down = document.querySelector('.expand1-down');
     const project1 = document.querySelector('.project-expand1');
 
     project1.classList.remove('magictime');
     project1.classList.remove('vanishOut');
+
+    if (window.innerHeight <= 800) {
+      expand1Down.style.display = 'block'
+    }
     
     if (project === 'project1') {
       expand1.style.display = 'block';
@@ -21,18 +26,28 @@ class Social extends React.Component {
 
   noneExpand = () => {
     const expand1 = document.querySelector('.expand1');
+    const expand1Down = document.querySelector('.expand1-down');
     const project1 = document.querySelector('.project-expand1');
     project1.classList.remove('magictime');
     project1.classList.remove('vanishIn');
     project1.classList.add('magictime');
     project1.classList.add('vanishOut');
-    setTimeout(() => expand1.style.display = 'none', 1000);
+    if (window.innerHeight <= 800) {
+      setTimeout(() => {
+        expand1Down.style.display = 'none';
+      }, 1000);
+    }
+
+    setTimeout(() => {
+      expand1.style.display = 'none';
+    }, 1000);
   }
 
   render() {
     return(
-      <div>
+      <div className="main-project">
         <Header pag="social" />
+        <div className="container-expand-down fadeIn expand1-down" onClick={ this.noneExpand }></div>
         <div className="container-expand fadeIn expand1" onClick={ this.noneExpand }>
           <div className="project-expand project-expand1 magictime vanishOut">
             <img src={ Market } />
