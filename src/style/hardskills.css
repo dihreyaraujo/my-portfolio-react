@@ -137,6 +137,14 @@
   box-shadow: 0 0 20px #2479BD;
 }
 
+.typescript p {
+  color: #287ACC;
+}
+
+.typescript:hover {
+  box-shadow: 0 0 20px #287ACC;
+}
+
 @media screen and (max-width: 1020px) {
   .hardskills {
     margin-top: 0;
