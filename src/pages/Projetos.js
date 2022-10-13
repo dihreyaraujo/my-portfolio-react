@@ -35,12 +35,13 @@ class Social extends React.Component {
     if (window.innerHeight <= 800) {
       setTimeout(() => {
         expand1Down.style.display = 'none';
+        expand1.style.display = 'none';
+      }, 1000);
+    } else {
+      setTimeout(() => {
+        expand1.style.display = 'none';
       }, 1000);
     }
-
-    setTimeout(() => {
-      expand1.style.display = 'none';
-    }, 1000);
   }
 
   render() {
