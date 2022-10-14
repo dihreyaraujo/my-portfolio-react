@@ -53,6 +53,10 @@ class HardSkills extends React.Component {
               <img align="center" alt="Dihrey-REDUX" height="130" width="140" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/>
               <p>NodeJs</p>
             </div>
+            <div className='hs express'>
+              <img align="center" alt="Dihrey-REDUX" height="130" width="140" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"/>
+              <p>ExpressJs</p>
+            </div>
             <div className='hs sequelize'>
               <img align="center" alt="Dihrey-REDUX" height="130" width="140" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg"/>
               <p>Sequelize</p>
