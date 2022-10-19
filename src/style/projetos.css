@@ -32,7 +32,18 @@
   justify-content: start;
 }
 
-.project1 p {
+.project2 {
+  background-image: url('../images/recipeapp-blur.jpg');
+  background-size: cover;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  cursor: pointer;
+  justify-content: start;
+}
+
+.project1 p, .project2 p {
   background-color: #535782b1;
   padding: 10px 20px;
   border-radius: 20px 20px 0 0;
@@ -66,7 +77,7 @@
   margin: auto;
   position: absolute;
   left: 25%;
-  top: 50px;
+  top: 10px;
   z-index: 99;
   background-color: #535782;
   color: white;
@@ -77,6 +88,7 @@
 }
 
 .project-expand img {
+  height: 400px;
   width: 100%;
   border-radius: 15px 15px 0 0;
 }
@@ -138,6 +150,10 @@
     width: 70%;
     left: 15%;
   }
+
+  .project-expand img {
+    height: 200px;
+  }
 }
 
 @media screen and (max-width: 680px) {
@@ -149,5 +165,17 @@
 @media screen and (max-height: 920px) {
   .container-project {
     margin-top: -30px;
+  }
+}
+
+@media screen and (max-width: 971px) {
+  .project-expand p {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project-expand p {
+    font-size: 1em;
   }
 }
