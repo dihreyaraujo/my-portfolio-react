@@ -7,20 +7,9 @@ import Gmail from '../icons/gmail.svg';
 import Linkedin from '../icons/linkedin.svg';
 import Perfil from '../perfil-images/imagemPrincipal.jpg';
 import Exit from '../images/exit.png';
+import Download from '../curriculo/download.png'
 
 class Header extends React.Component {
-  state = {
-    buttonText: 'CV'
-  }
-
-  buttonOn = () => {
-    this.setState({ buttonText: 'Em Breve' });
-  }
-
-  buttonOf = () => {
-    this.setState({ buttonText: 'CV' });
-  }
-
   enterMenu = () => {
     const menuPopUp = document.querySelector('.menu-popup');
     menuPopUp.style.display = 'flex';
@@ -95,13 +84,12 @@ class Header extends React.Component {
         <img src={ Exit } className="exit" onClick={ this.exitMenu } alt='icon-exit'></img>
           <div className="perfil-menu"></div>
           <h1>Dihrey Araujo</h1>
-          <button
-            type="button"
-            onMouseOver={ this.buttonOn }
-            onMouseOut={ this.buttonOf }
-          >
-            { this.state.buttonText }
-          </button>
+          <a href="../curriculo/dihrey-araujo-cv-fullstack.pdf" download className="link-download">
+            <div className="button-popup">
+              <img src={ Download } alt="download icon" className="download-icon"/>
+              <p>CV</p>
+            </div>
+          </a>
           <div>
             <a href="https://github.com/dihreyaraujo" target='_blank'>
               <img src={GitHub} className="icons-social" alt="github"></img>

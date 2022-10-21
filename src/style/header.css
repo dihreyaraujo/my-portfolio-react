@@ -146,7 +146,7 @@ label span:nth-child(3){
   margin-top: 30px;
 }
 
-.menu-popup button {
+.button-popup {
   width: 120px;
   height: 40px;
   font-size: 1em;
@@ -158,12 +158,24 @@ label span:nth-child(3){
   margin-bottom: 30px;
   margin-top: 30px;
   transition: 0.3s;
+  display: flex;
+  align-items: center;
+  color: #535782;
 }
 
-.menu-popup button:hover {
-  cursor: not-allowed;
+.link-download {
+  text-decoration: none;
+}
+
+.button-popup:hover {
   background-color: #535782;
   color: white;
+}
+
+.download-icon {
+  width: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 
 .icons-social {
