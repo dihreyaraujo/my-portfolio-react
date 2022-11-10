@@ -153,6 +153,14 @@
   box-shadow: 0 0 20px #287ACC;
 }
 
+.mongodb p {
+  color: #4AA73C;
+}
+
+.mongodb:hover {
+  box-shadow: 0 0 20px #4AA73C;
+}
+
 @media screen and (max-width: 1020px) {
   .hardskills {
     margin-top: 0;

@@ -2,7 +2,8 @@ import React from 'react';
 import '../style/projetos.css';
 import Header from '../components/Header';
 import Market from '../images/market-dihrey-project-blur.png';
-import RecipeApp from '../images/therecipeappsite-blur.png'
+import RecipeApp from '../images/therecipeappsite-blur.png';
+import TFCApp from '../images/tfc-blur.png';
 
 class Social extends React.Component {
   expandProject = ({ target }, n) => {
@@ -70,6 +71,16 @@ class Social extends React.Component {
             <a href="https://apprecipedihrey.netlify.app/" target="_blank"><button type="button">Visitar</button></a>
           </div>
         </div>
+        <div className="container-expand-down fadeIn expand3-down" onClick={ () => this.noneExpand(3) }></div>
+        <div className="container-expand fadeIn expand3" onClick={ () => this.noneExpand(3) }>
+          <div className="project-expand project-expand3 magictime vanishOut">
+            <img src={ TFCApp } />
+            <h1>Dihrey TrybeFutebolClube</h1>
+            <p>Este projeto contém apenas o Back-End, pois o Front-End foi desenvolvido pela Trybe, e neste projeto o intuito é demonstrar a minha competência em escrever códigos pro Back-End. Houve também a dockerização do meu projeto para poder realizá-lo, porém no repositório, só será encontrado as lógicas realizadas e as rotas criadas.</p>
+            <p>Este é um projeto desenvolvido individualmente com o intuito de demonstrar minhas habilidades em: Node, Typescript, Sequelize, JWT, Express, MySQL, bcrypt, API REST</p>
+            <a href="https://github.com/dihreyaraujo/TrybeFutebolClube" target="_blank"><button type="button">Visitar</button></a>
+          </div>
+        </div>
         <div className='fadeIn container-project'>
           <div className='project project1' onClick={ (e) => this.expandProject(e, 1) }>
             <p>Dihrey Market</p>
@@ -77,8 +88,8 @@ class Social extends React.Component {
           <div className='project project2' onClick={ (e) => this.expandProject(e, 2) }>
             <p>Dihrey RecipeApp</p>
           </div>
-          <div className='project'>
-            <p>Em Breve</p>
+          <div className='project project3' onClick={ (e) => this.expandProject(e, 3) }>
+            <p>Dihrey TrybeFutebol</p>
           </div>
           <div className='project'>
             <p>Em Breve</p>

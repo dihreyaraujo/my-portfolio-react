@@ -43,7 +43,18 @@
   justify-content: start;
 }
 
-.project1 p, .project2 p {
+.project3 {
+  background-image: url('../images/futebol-blur.jpg');
+  background-size: cover;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  cursor: pointer;
+  justify-content: start;
+}
+
+.project1 p, .project2 p, .project3 p {
   background-color: #535782b1;
   padding: 10px 20px;
   border-radius: 20px 20px 0 0;
