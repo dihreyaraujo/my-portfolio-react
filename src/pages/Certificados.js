@@ -3,6 +3,7 @@ import '../style/certificados.css';
 import Header from '../components/Header';
 import Certificado1 from '../images/certificado.png';
 import Certificado2 from '../images/certificado2.png';
+import Certificado3 from '../images/certificado3.png';
 
 class Certificados extends React.Component {
   renderButton = (index, certificado, word) => {
@@ -71,6 +72,24 @@ class Certificados extends React.Component {
               onMouseOut={ () => this.removeButton(1, 'certificado2', 'button') }
             >
               <a href="https://www.credential.net/9175ef3c-1069-473a-a5f9-193b892db389#gs.b2mhkp" target="_blank">Visualize Aqui</a>
+            </button>
+          </div>
+          <div className='certificado-div'>
+            <p>Desenvolvimento Back End</p>
+            <img
+              src={ Certificado3 }
+              className='certificado3'
+              alt="certificado back end"
+              onMouseOver={() => this.renderButton(2, 'certificado3')}
+              onMouseOut={ () => this.removeButton(2, 'certificado3') }
+            />
+            <button
+              type="button" 
+              className='button-certificado'
+              onMouseOver={() => this.renderButton(2, 'certificado3', 'button')}
+              onMouseOut={ () => this.removeButton(2, 'certificado3', 'button') }
+            >
+              <a href="https://www.credential.net/740c4bd0-5e26-434f-9955-02063c22f0a4#gs.od92tq" target="_blank">Visualize Aqui</a>
             </button>
           </div>
         </div>

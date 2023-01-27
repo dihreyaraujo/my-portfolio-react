@@ -46,6 +46,18 @@
   filter: blur(3px);
 }
 
+.certificado3 {
+  transition: all 0.5s;
+  cursor: pointer;
+  width: 400px;
+  height: 282px;
+}
+
+.certificado3:hover{
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+}
+
 .button-certificado {
   position: absolute;
   display: none;
@@ -80,7 +92,7 @@
 }
 
 @media screen and (max-width: 1020px) {
-  .certificado1, .certificado2 {
+  .certificado1, .certificado2, .certificado3 {
     width: 350px;
     height: 230px;
   }
@@ -97,14 +109,14 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1220px) {
   #certificado-container {
     flex-direction: column;
     margin-top: 0;
     left: 50%;
   }
 
-  .certificado1 {
+  .certificado1, .certificado2 {
     margin-bottom: 40px;
   }
 }
