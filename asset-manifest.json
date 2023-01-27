@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.a59f3b86.css",
-    "main.js": "/static/js/main.9e33d4e7.js",
+    "main.css": "/static/css/main.13145da2.css",
+    "main.js": "/static/js/main.901cde3f.js",
     "static/media/recipeapp-blur.jpg": "/static/media/recipeapp-blur.a845420162b886eed9a2.jpg",
     "static/media/market-dihrey-project-blur.jpg": "/static/media/market-dihrey-project-blur.f51d8a71dd67ea8b40e3.jpg",
     "static/media/tfc-blur.png": "/static/media/tfc-blur.9149a0b607a36ac99878.png",
     "static/media/futebol-blur.jpg": "/static/media/futebol-blur.6072cbe6a7693698c47c.jpg",
     "static/media/market-dihrey-project-blur.png": "/static/media/market-dihrey-project-blur.f7c7b4131b8a73d42ec1.png",
     "static/media/therecipeappsite-blur.png": "/static/media/therecipeappsite-blur.904846b7173b813fcb6f.png",
-    "static/media/certificado2.png": "/static/media/certificado2.2e72e55208d78fb9181c.png",
-    "static/media/certificado.png": "/static/media/certificado.290e7c1a209187e8e8d2.png",
+    "static/media/certificado3.png": "/static/media/certificado3.24483d8c830eadc0f829.png",
+    "static/media/certificado2.png": "/static/media/certificado2.61fb8eafe56274944717.png",
+    "static/media/certificado.png": "/static/media/certificado.3b201adf586ae6222f25.png",
     "static/media/imagemPrincipal.jpg": "/static/media/imagemPrincipal.aff506dba2e31804035c.jpg",
     "static/media/exit.png": "/static/media/exit.15f1023ca756b9d00856.png",
     "static/media/download.png": "/static/media/download.2d0c29f4af9ab4b64592.png",
@@ -20,11 +21,11 @@
     "static/media/linkedin.svg": "/static/media/linkedin.b36a49003fed3e09395ae435ba9a728a.svg",
     "static/media/terminal-solid.svg": "/static/media/terminal-solid.64d14e6c74f8e55fbe632d23cc434f1e.svg",
     "index.html": "/index.html",
-    "main.a59f3b86.css.map": "/static/css/main.a59f3b86.css.map",
-    "main.9e33d4e7.js.map": "/static/js/main.9e33d4e7.js.map"
+    "main.13145da2.css.map": "/static/css/main.13145da2.css.map",
+    "main.901cde3f.js.map": "/static/js/main.901cde3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a59f3b86.css",
-    "static/js/main.9e33d4e7.js"
+    "static/css/main.13145da2.css",
+    "static/js/main.901cde3f.js"
   ]
 }
