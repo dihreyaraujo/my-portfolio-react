@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Market from '../images/market-dihrey-project-blur.png';
 import RecipeApp from '../images/therecipeappsite-blur.png';
 import TFCApp from '../images/tfc-blur.png';
+import deliveryAPP from '../images/app-delivery-blur.png';
 
 class Social extends React.Component {
   expandProject = ({ target }, n) => {
@@ -81,6 +82,17 @@ class Social extends React.Component {
             <a href="https://github.com/dihreyaraujo/TrybeFutebolClube" target="_blank"><button type="button">Visitar</button></a>
           </div>
         </div>
+        <div className="container-expand-down fadeIn expand4-down" onClick={ () => this.noneExpand(4) }></div>
+        <div className="container-expand fadeIn expand4" onClick={ () => this.noneExpand(4) }>
+          <div className="project-expand project-expand4 magictime vanishOut">
+            <img src={ deliveryAPP } />
+            <h1>App Delivery</h1>
+            <p>Este é um projeto Full Stack desenvolvido em grupo com o intuito de demonstrar minhas habilidades em:</p>
+            <p>React, Axios, NodeJs, MySQL, Sequelize, MD5, JWT, ORM, API REST, SCRUM e KANBAN</p>
+            <p><a href="https://drive.google.com/file/d/1PwJ58zAk5IkNHn8fZsCgQQXb50K8KlYr/view" target="_blank" className="video-link">*Clique Aqui*</a> para ver o vídeo de funcionamento da aplicação na WEB ou clique no botão abaixo para ir para o repositório no Github</p>
+            <a href="https://github.com/dihreyaraujo/App-Delivery" target="_blank"><button type="button">Visitar</button></a>
+          </div>
+        </div>
         <div className='fadeIn container-project'>
           <div className='project project1' onClick={ (e) => this.expandProject(e, 1) }>
             <p>Dihrey Market</p>
@@ -91,8 +103,8 @@ class Social extends React.Component {
           <div className='project project3' onClick={ (e) => this.expandProject(e, 3) }>
             <p>Dihrey TrybeFutebol</p>
           </div>
-          <div className='project'>
-            <p>Em Breve</p>
+          <div className='project project4' onClick={ (e) => this.expandProject(e, 4) }>
+            <p>Dihrey App Delivery</p>
           </div>
         </div>
       </div>

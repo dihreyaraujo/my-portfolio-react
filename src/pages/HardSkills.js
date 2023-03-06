@@ -69,6 +69,10 @@ class HardSkills extends React.Component {
               <img align="center" alt="Dihrey-REDUX" height="130" width="140" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"/>
               <p>MongoDB</p>
             </div>
+            <div className='hs sql'>
+              <img align="center" alt="Dihrey-REDUX" height="130" width="140" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
+              <p>Python</p>
+            </div>
           </div>
         </div>
       </div>
