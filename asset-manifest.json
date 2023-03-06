@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7a83f4da.css",
-    "main.js": "/static/js/main.ad65fbdf.js",
+    "main.js": "/static/js/main.96087c28.js",
     "static/media/recipeapp-blur.jpg": "/static/media/recipeapp-blur.a845420162b886eed9a2.jpg",
     "static/media/market-dihrey-project-blur.jpg": "/static/media/market-dihrey-project-blur.f51d8a71dd67ea8b40e3.jpg",
     "static/media/tfc-blur.png": "/static/media/tfc-blur.9149a0b607a36ac99878.png",
@@ -23,10 +23,10 @@
     "static/media/terminal-solid.svg": "/static/media/terminal-solid.64d14e6c74f8e55fbe632d23cc434f1e.svg",
     "index.html": "/index.html",
     "main.7a83f4da.css.map": "/static/css/main.7a83f4da.css.map",
-    "main.ad65fbdf.js.map": "/static/js/main.ad65fbdf.js.map"
+    "main.96087c28.js.map": "/static/js/main.96087c28.js.map"
   },
   "entrypoints": [
     "static/css/main.7a83f4da.css",
-    "static/js/main.ad65fbdf.js"
+    "static/js/main.96087c28.js"
   ]
 }
