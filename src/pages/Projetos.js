@@ -88,7 +88,7 @@ class Social extends React.Component {
             <img src={ deliveryAPP } />
             <h1>App Delivery</h1>
             <p>Este é um projeto Full Stack desenvolvido em grupo com o intuito de demonstrar minhas habilidades em:</p>
-            <p>React, Axios, NodeJs, MySQL, Sequelize, MD5, JWT, ORM, API REST, SCRUM e KANBAN</p>
+            <p>React, Axios, NodeJs, MySQL, Express, Sequelize, MD5, JWT, ORM, API REST, SCRUM e KANBAN</p>
             <p><a href="https://drive.google.com/file/d/1PwJ58zAk5IkNHn8fZsCgQQXb50K8KlYr/view" target="_blank" className="video-link">*Clique Aqui*</a> para ver o vídeo de funcionamento da aplicação na WEB ou clique no botão abaixo para ir para o repositório no Github</p>
             <a href="https://github.com/dihreyaraujo/App-Delivery" target="_blank"><button type="button">Visitar</button></a>
           </div>
