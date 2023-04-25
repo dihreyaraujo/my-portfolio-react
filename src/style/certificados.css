@@ -3,8 +3,9 @@
 
 #certificado-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  width: 80vw;
+  width: 90vw;
   margin: auto;
   margin-top: 100px;
 }
@@ -20,6 +21,12 @@
   margin-bottom: 10px;
   color: #535782;
   font-size: 1.3em;
+}
+
+.certificado1, .certificado2, .certificado3, .certificado4 {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 20px;
 }
 
 .certificado1 {
@@ -58,6 +65,18 @@
   filter: blur(3px);
 }
 
+.certificado4 {
+  transition: all 0.5s;
+  cursor: pointer;
+  width: 400px;
+  height: 282px;
+}
+
+.certificado4:hover{
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+}
+
 .button-certificado {
   position: absolute;
   display: none;
@@ -92,7 +111,7 @@
 }
 
 @media screen and (max-width: 1020px) {
-  .certificado1, .certificado2, .certificado3 {
+  .certificado1, .certificado2, .certificado3, .certificado4 {
     width: 350px;
     height: 230px;
   }
@@ -116,7 +135,7 @@
     left: 50%;
   }
 
-  .certificado1, .certificado2 {
+  .certificado1, .certificado2, .certificado3 {
     margin-bottom: 40px;
   }
 }
